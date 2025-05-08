@@ -9,7 +9,19 @@ Travelers often face challenges such as:
 * Time-Consuming Planning: Manually researching and organizing travel plans, including flights, accommodations, and activities, can be time-intensive and complex.
 
 ***Project Overview***
-The repository includes a Jupyter Notebook titled Building_a_Hybrid_Recommendation_systems_For_Travel_Agencies.ipynb, indicating the implementation of a hybrid recommendation system. While specific details are limited, such systems typically combine multiple recommendation techniques to improve accuracy and personalization.
+The repository includes a Jupyter Notebook titled Building_a_Hybrid_Recommendation_systems_For_Travel_Agencies.ipynb, indicating the implementation of a hybrid recommendation system. 
+### ***Recommendation Approach***
+We implement a hybrid model using:
+
+Collaborative Filtering:
+
+Alternating Least Squares (ALS) – A matrix factorization technique that captures latent patterns from user-item interactions.
+
+Content-Based Filtering:
+
+TF-IDF Vectorization – Converts textual travel metadata (e.g., destination descriptions) into weighted word features.
+
+Cosine Similarity – Measures similarity between items to suggest travel options similar to what a user already liked. to improve accuracy and personalization.
 
 ***Potential Solution Approach***
 Hybrid recommendation systems often integrate:
