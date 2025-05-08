@@ -8,7 +8,7 @@ Travelers often face challenges such as:
 
 * Time-Consuming Planning: Manually researching and organizing travel plans, including flights, accommodations, and activities, can be time-intensive and complex.
 
-***Project Overview***
+## ***Project Overview***
 The repository includes a Jupyter Notebook titled Building_a_Hybrid_Recommendation_systems_For_Travel_Agencies.ipynb, indicating the implementation of a hybrid recommendation system. 
 ### ***Recommendation Approach***
 I implement a hybrid model using:
@@ -16,21 +16,17 @@ I implement a hybrid model using:
 * ***Collaborative Filtering:***
 
 Alternating Least Squares (ALS) – A matrix factorization technique that captures latent patterns from user-item interactions.
+Leveraging user behavior and preferences to suggest destinations or services that similar users have enjoyed.
 
 * ***Content-Based Filtering:***
 
 TF-IDF Vectorization – Converts textual travel metadata (e.g., destination descriptions) into weighted word features.
+Analyzing item attributes (e.g., destination features, hotel amenities) to recommend options similar to those a user has liked in the past.Analyzing item attributes (e.g., destination features, hotel amenities) to recommend options similar to those a user has liked in the past.
 
 Cosine Similarity – Measures similarity between items to suggest travel options similar to what a user already liked. to improve accuracy and personalization.
 
-***Potential Solution Approach***
-Hybrid recommendation systems often integrate:
-
-* Collaborative Filtering: Leveraging user behavior and preferences to suggest destinations or services that similar users have enjoyed.
-
-* Content-Based Filtering: Analyzing item attributes (e.g., destination features, hotel amenities) to recommend options similar to those a user has liked in the past.
-
-* Demographic Filtering: Considering user demographics (e.g., age, location) to tailor recommendations.
+Demographic Similarity
+Demographic Filtering: Considering user demographics (e.g., age, location) to tailor recommendations.
 
 ***Future Expansion***
 The project will be integrated with Agentic AI tools to create a more interactive and autonomous system capable of handling complex user travel needs.
