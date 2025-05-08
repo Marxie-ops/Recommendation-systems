@@ -11,13 +11,13 @@ Travelers often face challenges such as:
 ***Project Overview***
 The repository includes a Jupyter Notebook titled Building_a_Hybrid_Recommendation_systems_For_Travel_Agencies.ipynb, indicating the implementation of a hybrid recommendation system. 
 ### ***Recommendation Approach***
-We implement a hybrid model using:
+I implement a hybrid model using:
 
-Collaborative Filtering:
+* ***Collaborative Filtering:***
 
 Alternating Least Squares (ALS) – A matrix factorization technique that captures latent patterns from user-item interactions.
 
-Content-Based Filtering:
+* ***Content-Based Filtering:***
 
 TF-IDF Vectorization – Converts textual travel metadata (e.g., destination descriptions) into weighted word features.
 
